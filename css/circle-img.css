@@ -1,0 +1,56 @@
+.circle-img {
+    border-radius:50%;
+}
+
+.cricle-service{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 100px;
+    margin: 0 auto;
+    background-color: #317FF6;
+    /* box-shadow: 
+      0 0 0 5px #FFF,
+     0 0 0 10px black; */
+     z-index: 1;
+}
+.cricle-service span{
+    line-height: 1.9;
+    color: white;
+    font-size:80px;
+}
+
+.step p{
+    color: #787878;
+}
+
+
+/* zoom */
+
+.zoom {
+    border: solid 1px white;
+    position: static;
+    color:#ffff;
+    background-color: #8FBBFF;
+    transition: transform .2s;
+    box-shadow: 3px 4px #DCDCDC;
+    margin-bottom: 20px;
+}
+.zoom i{
+    margin-top: 15px;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+    background-color: #317FF6;
+    box-shadow: 0 8px 6px -6px black;
+}
+
+.zoom h5{
+    margin-top: 20px;
+}
+
+

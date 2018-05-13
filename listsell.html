@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./fontawesome-free-5.0.9/web-fonts-with-css/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/circle-img.css">
+    <link rel="stylesheet" href="./css/list.css">
+    <link rel="stylesheet" href="./css/stepbar.css">
+    <link rel="stylesheet" href="./css/back.css">
+    <link rel="stylesheet" href="./css/footer.css">
+</head>
+<body class="body-back">
+    <!-- navbar -->
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark text-center custom-nav">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="https://vignette.wikia.nocookie.net/logopedia/images/e/ee/Burger_King_Logo.svg.png/revision/20120422044236" width="30" height="30" alt=""> LOGO
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+        
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto p-3" id="myTab">
+                            <li class="nav-item p-2">
+                                <a class="nav-link " href="#!/home">หน้าแรก
+                                    <span class="sr-only">(current)</span>
+                                </a>
+                            </li>
+                            <li class="nav-item p-2">
+                                <a class="nav-link" href="#">คำถามพี่พบบ่อย</a>
+                            </li>
+             
+                            <!-- Login แล้ว -->
+                            <li class="nav-item dropdown">
+                                <button class="btn btn-sm btn-outline-secondary" type="button">
+                                    <a class="nav-link dropdown-toggle " id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    สวัสดีคุณ TRAROKINGs
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="#">
+                                            <i class="fas fa-user"></i> โปรไฟล์</a>
+                                        <a class="dropdown-item" href="#">
+                                            <i class="fas fa-clipboard-list"></i> รายการของฉัน</a>
+                                        <a class="dropdown-item" href="#">
+                                            <i class="far fa-calendar-alt"></i> ประวัติการทำธุระกรรม</a>
+                                        <a class="dropdown-item" href="#">
+                                            <i class="fas fa-undo-alt"></i> การคืนสินค้า</a>
+                                        <a class="dropdown-item" href="#">
+                                            <i class="fas fa-cogs"></i> ตั้งค่า</a>
+                                        <a class="dropdown-item" href="#">
+                                            <i class="far fa-question-circle"></i> รายงานปัญหา</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">
+                                            <i class="fas fa-sign-out-alt"></i> ออกจากระบบ</a>
+                            </li>
+                            </button>
+                        </ul>
+                        </div>
+                    </div>
+            </nav>
+
+<sidebar>
+        <div class="container">
+                <div class="row profile">
+                    <div class="col-md-3">
+                        <div class="profile-sidebar">
+                            <!-- รูป -->
+                            <div class="profile-userpic mx-auto row">
+                                <img src="./image/team.jpg" class="img-fluid" alt="">
+                            </div>
+                            <!-- END รูป -->
+                            <!-- SIDEBAR ชื่อ -->
+                            <div class="profile-usertitle">
+                                <div class="profile-usertitle-name"> TRAROKINGs </div>
+                                <!-- <div class="profile-usertitle-code"> </div> -->
+                            </div>
+                            <!-- END ชื่อ -->
+                            <!-- ปุ่มกด -->
+                            <div class="profile-userbuttons">
+                                <button type="button" class="btn btn-outline-secondary btn-sm">อัพโหลดรูป</button>
+                                <button type="button" class="btn btn-outline-danger btn-sm">ลบรูป</button>
+                            </div>
+                            <!-- END ปุ่มกด -->
+                            <!-- เมนู -->
+                            <div class="profile-usermenu">
+                                <ul class="nav-menu">
+                                        <li><a href="profile.html" target="_top" style="text-decoration: none;"><i class="far fa-address-card"></i>โปรไฟล์</a></li>
+                                        <li class="active"><a href="listbuy.html" target="_top" style="text-decoration: none;"><i class="fas fa-clipboard-list"></i>รายการของฉัน </a></li>
+                                        <li><a href="withdraw.html" target="_top" style="text-decoration: none;"><i class="fas fa-wallet"></i>ถอนเงิน </a></li>
+                                        <li><a href="#" target="_top" style="text-decoration: none;"><i class="fas fa-boxes"></i>ติดตามพัสดุ</a></li>
+                                        <li><a href="#" target="_top" style="text-decoration: none;"><i class="fas fa-undo-alt"></i>คืนสินค้า </a></li>
+                                        <li><a href="setting.html" target="_top" style="text-decoration: none;"><i class="fas fa-cogs"></i>ตั้งค่า </a></li>
+                                        <li><a href="#" target="_top" style="text-decoration: none;"><i class="far fa-question-circle"></i>รายงานปัญหา</a></li>
+                                        <li><a href="#" target="_top" style="text-decoration: none; color: red;"><i class="fas fa-sign-out-alt"></i>ออกจากระบบ</a></li>
+                                </ul>
+                            </div>
+                            <!-- END เมนู -->
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="profile-content">
+                            <!-- menu bar -->
+                                <ul class="nav nav-tabs mb-3">
+                                        <li class="nav-item">
+                                          <a class="nav-link text-dark" href="listbuy.html">รายการซื้อ</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link text-primary active" href="listsell.html">รายการขาย</a>
+                                        </li>
+
+                                      </ul>
+                            <!-- end menu bar -->
+
+                            <!-- section คำขอขาย -->
+                            <section>
+                                    <!-- ค้นหา -->
+                                    <!-- <form class="form-group row ">
+                                        <div class="col-1"></div>
+                                            <input class="form-control mr-sm-2 col-7 f-14" type="search" placeholder="ค้นหา">
+                                            <button class="btn btn-outline-success col-2 btn-sm" type="submit">ค้นหา</button>
+                                          </form> -->
+                                           <!-- จบ ค้นหา -->
+
+                                          <!-- กรอกข้อมูลให้ครบก่อน -->
+                                          <!-- <div class="box-buy text-center">
+                                            <h4>สำหรับผู้ที่ต้องการขาย</h4>
+                                            <p>ต้องกรอกข้อมูลในส่วนที่มีเครื่องหมาย <i class="fas fa-check-circle"></i> ให้ครบถ้วนและทำการยืนยันถึงจะทำการขายได้</p>
+                                            <div class="form-group">
+                                                <button type="button" class="btn btn-primary btn-sm">ตั้งค่า</button>
+                                            </div>
+                                        </div> -->
+                                         <!-- จบ กรอกข้อมูลให้ครบก่อน -->
+
+                                         <!-- เปิด-ปิด -->
+                                          <div id="accordion">
+                                              <!-- 1111 -->
+                                                <div class="card">
+                                                <div data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                  <div class="card-header" id="headingOne">
+                                                    <h5 class="mb-0">
+                                                        <div class="row container">
+                                                            <span class="f-16 my-auto">เลขที่ #000102</span>  <button type="button" class="btn btn-sm btn-secondary ml-auto" disabled>สถานะ : เริ่มรายการ</button>
+                                                        </div>       
+                                                      </div>
+                                                    </h5>
+                                                </div>
+                                              
+                                                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                                    <div class="card-body text-center">
+                                                            <span>สั่งซื้อวันที่ 07 เม.ย 2018  </span>
+                                                            <p>จำนวณเงิน : 5100 บาท</p>
+                                                            <a href="#">(ผู้ซื้อ : JAME)</a>
+                                                            <hr>
+                                                            <!-- stap bar -->
+                                                             <div class="container pb-5">
+                                                                    <ul class="progressbar p-2">
+                                                                        <li class="step-active">เริ่มรายการ <br><span class="f-13">14-05-2018 21:43</span></li>
+                                                                        <li>ชำระเงินแล้ว <br><span class="f-13">14-05-2018 21:43</span></li>
+                                                                        <li>สินค้าได้ถูกจัดส่ง <br><span class="f-13">15-05-2018 21:43</span></li>
+                                                                        <li>ผู้ซื้อยอมรับสินค้า <br><span class="f-13">17-05-2018 21:43</span></li>
+                                                                        <li>เสร็จสิ้นรายการ <br><span class="f-13">24-05-2018 21:43</span></li>
+                                                                    </ul>
+                                                                </div> 
+                                                                <!-- end stap bar -->
+                                                                 
+                                                    <!-- step1 -->
+                                                    <!-- <div class="pt-5"></div>
+                                                    <div class="form-group text-center step pt-3 pb-4 mt-5 bg-light box">
+                                                            <div class="container">
+                                                            <div class="form-group row mx-auto">
+                                                                <span class="col col-12 col-lg-12 my-auto pb-2 h6">COPY ให้ผู้ซื้อ</span>
+                                                                    <input type="text" class="col col-7 col-lg-10 form-control ml-4" value="https://justbuy.com/buyorder/201661448670145" disabled id="copy">
+                                                                    <button class="col col-3 col-lg-1 ml-2 btn btn-secondary btn-sm" onclick="myFunction()">Copy</button>
+                                                                    <button class="btn btn-danger mx-auto btn-sm mt-3">ยกเลิกรายการ</button>
+                                                                </div>
+                                                        </div>   -->
+                                                        <!-- End step1 --> 
+                                                           
+
+                                                         <!-- step2 -->
+                                                         <div class="pt-5"></div>
+                                                         <div class="form-group text-center step pt-3 pb-4 mt-5 bg-light box">
+                                                                <div class="container">
+                                                                        <div class="form-group">
+                                                                                 <h5>ที่อยู่จัดส่ง</h5>
+                                                                                <hr class="org">
+                                                                                <textarea id="address" class="form-control" rows="2" disabled >มารุตเทพ ร่มโพธิ์ 309/78 ม.2 ต.พระบาท อ.เมือง จ.ลำปาง 52000 0965913095</textarea>
+                                                                        </div>
+                                                                    <h5>เลือกบริษัทขนส่ง</h5>
+                                                                    <hr class="org">
+                                                                    <div class="container">
+                                                                    <div class="form-group row">
+                                                                            <select class="form-control col-12 col-sm-3 " id="ems">
+                                                                                    <option>EMS</option>
+                                                                                    <option>KERRY</option>
+                                                                                    <option>นิ่มซีเส็ง</option>
+                                                                                    <option>อื่นๆ</option>
+                                                                            </select>
+                                                                                <input type="text" class="col-12 ml-1 col-sm-8 form-control" placeholder="หมายเลขติดตามพัสดุ">
+                                                                                <button class="btn btn-success btn-sm mt-3 "><i class="fas fa-plus"></i> เพิ่มรายการ</button>
+                                                                                <button class="btn btn-primary btn-sm ml-1 mt-3" onclick="myconfirm()">ยืนยันการส่งพัสดุ</button>
+                                                                    </div>
+                                                                </div>
+                                                            </div> 
+                                                         </div>
+                                                          <!-- End step2 --> 
+
+                                                         <!-- step3 -->
+                                                         <!-- <div class="pt-5"></div>
+                                                         <div class="form-group text-center step pt-3 pb-4 mt-5 bg-light box">
+                                                                <div class="container">
+                                                                <div class="form-group">
+                                                                    <p class="h5">หมายเลขติดตามพัสดุ</p>
+                                                                    จัดส่งโดย EMS: <span class="text-primary">EU430995868TH</span> <br>
+                                                                    จัดส่งโดย KERRY: <span class="text-primary">SHP2004021436</span> <br>
+                                                                    <button class="btn btn-danger btn-sm mt-3" onclick="myconfirm()">แก้ไขหมายเลข</button>
+                                                                    </div>
+                                                            </div> 
+                                                         </div> -->
+                                                         <!-- End step3 --> 
+                                                         <!-- step4-5 -->
+                                                         <!-- <div class="pt-5"></div>
+                                                         <div class="form-group text-center step pt-3 pb-4 mt-5 bg-light box">
+                                                                <div class="container">
+                                                                <div class="form-group">
+                                                                    <p class="h5">หมายเลขติดตามพัสดุ</p>
+                                                                    จัดส่งโดย EMS: <span class="text-primary">EU430995868TH</span> <br>
+                                                                    จัดส่งโดย KERRY: <span class="text-primary">SHP2004021436</span> <br>
+                                                                    </div>
+                                                            </div> 
+                                                         </div> -->
+                                                         <!-- End step4-5 --> 
+
+                                                  </div>
+                                                </div> 
+                                                 <!-- end 1111 -->
+                                               
+                                                <!-- 2222 -->
+                                                <!-- <div class="card">
+                                                <div class="collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                  <div class="card-header" id="headingTwo">
+                                                    <h5 class="mb-0">
+                                                            <div class="row container">
+                                                                 <span class="f-16 my-auto">เลขที่ #000101</span>     <button type="button" class="btn btn-sm btn-secondary ml-auto" disabled>สถานะ : รอยืนยัน</button>
+                                                                </div>      
+                                                      </div>
+                                                    </h5>
+                                                  </div>
+                                                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                                                        <div class="card-body text-center">
+                                                                <span>สั่งซื้อวันที่ 10 เม.ย 2018  </span>
+                                                                <p>จำนวณเงิน : 259 บาท</p>
+                                                                <a href="#">(ผู้ซื้อ : TEEM)</a>
+                                                                <hr> <button type="button" class="btn btn-outline-dark">ดูข้อมูลสั้งซื้อ</button>    
+                                                        </div>
+                                                  </div>
+                                                </div>   -->
+                                                <!-- end 2222 -->
+                                               
+                                                <!-- 3333 -->
+                                                <!-- <div class="card">
+                                                        <div class="collapsed" data-toggle="collapse" data-target="#collapsetree" aria-expanded="false" aria-controls="collapsetree">
+                                                          <div class="card-header" id="headingTree">
+                                                            <h5 class="mb-0">
+                                                                    <div class="row container">
+                                                                        <span class="f-16 my-auto">เลขที่ #000100</span> <button type="button" class="btn btn-sm btn-secondary ml-auto" disabled>สถานะ : รอยืนยัน</button>
+                                                                        </div>      
+                                                              </div>
+                                                            </h5>
+                                                          </div>
+                                                          <div id="collapsetree" class="collapse" aria-labelledby="headingTree" data-parent="#accordion">
+                                                                <div class="card-body text-center">
+                                                                        <span>สั่งซื้อวันที่ 15 เม.ย 2018  </span>
+                                                                        <p>จำนวณเงิน : 548 บาท</p>
+                                                                        <a href="#">(ผู้ซื้อ : WORAWIT)</a>
+                                                                        <hr> <button type="button" class="btn btn-outline-dark">ดูข้อมูลสั้งซื้อ</button>    
+                                                                </div>
+                                                          </div>
+                                                        </div> -->
+                                                         <!-- end 3333 -->
+                                </section>
+                                <!-- END section คำขอขาย -->
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+</sidebar>
+
+    <!-- import angularjs -->
+    <script src="./node_modules/angular/angular.min.js"></script>
+    <script src="./node_modules/angular-route/angular-route.min.js"></script>
+    <!-- jquery -->
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <!-- framwork -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./node_modules/popper.js/dist/umd/popper.min.js"></script>
+  
+
+    <!-- import js -->
+    <script src="./controller/navbar.js"></script>
+
+
+</body>
+</html>

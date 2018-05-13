@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css?family=Athiti');
+
+body{
+    height: 100%;
+    font-family: 'Kanit', sans-serif;
+}
+
+/* navbar */
+#navbar {
+    padding: 0px;
+    transition: 0.5s; 
+}
+.bg-navbar{
+    background-color: none;
+}
+
+
+/* header */
+
+
+/* articel */
+
+
+.bg-head{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    position: relative;
+    display: block;
+    padding-top: 250px;
+    padding-bottom: 100px;
+}
+
+.bg-img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.bg-comment{ 
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-img span{
+    font-family: 'Kanit', sans-serif;
+}
+
+.backscreen{
+    background-color: #2125295e;
+    height: 100%;
+}
+
+#services h1{
+    color: #4C4C4C;
+    word-spacing: 5px;
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+
+.far span{
+    font-family: 'Kanit', sans-serif;
+}
+
+.carousel-inner,
+.carousel-item,
+.active,.carousel {
+    height: 100%;
+}
+
+
+/* botton สมัคร */
+  .botton {
+      text-align: center;
+      width: 300px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    background-color: #fcad26;
+    font-size: 30px;
+    color: white;
+    padding: 15px 10px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0 6px #efa424; 
+
+  }
+  .botton:hover{
+    box-shadow: 0 4px #efa424;
+    top: 2px;
+  }
+  .botton:active{
+    box-shadow: none;
+    top: 6px;
+  }
+
+/* บริการ */
+.why row::before{
+    display: table;
+    content: " ";
+}
+.why ul li{list-style: none;} 
+
+ .why span{ 
+     /* #54babb */
+    display: inline-block;
+    float: left;
+    width: 52px;
+    height: 52px;
+    background:#317FF6;
+    border-radius: 4px;
+    text-align: center;
+    margin-right: 20px;
+} 
+
+ .why li {
+    overflow: hidden;
+    margin-bottom: 22px;
+}   
+
+.why h4{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+}
+.why p{    
+    color: #787878;
+    font-size: 15px;
+    line-height: 22px;
+    margin: 0;
+}
+.why i{
+    color: #fff;
+    font-size: 22px;
+    line-height: 52px;
+}
+
+.org{
+    border-color: #ffa544;
+    border-width: 3px;
+    max-width: 50px;
+}
+
+
+
+/* team */
+
+.team h2 {
+    color: #4C4C4C;
+    word-spacing: 5px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom:20px;
+}
+
+.ion-minus{
+    padding:0px 10px;
+}
+
+.team{
+	background-color:#f6f6f6;
+	padding:60px 0px;
+}
+
+.team h4 {
+    margin-top: 20px;
+    color: #5db4c0;
+}
+
+.team i{
+    color: #4C4C4C;
+}
+
+
+#img-upload{
+    width: 100%;
+}
+
+
+/* icon */
+
+/* .icon{
+	width:200px;
+	height:200px;
+	margin:0 auto;
+	border:1px solid #dedede;
+	text-align:center;
+	display:block;
+	color:#fff;
+	font-size:32px;
+	transition:all 0.5s ease-in-out;
+	-webkit-transition:all 0.2s ease-in-out;
+	cursor:pointer;	
+	border-radius:5px;	
+}
+.icon i{line-height:100px;}
+.icon:hover{transform:translate(0, -10px);-webkit-transform:translate(0, -10px);box-shadow:3px 10px 3px #ccc;}
+.icon:active{box-shadow:3px 10px 3px #1a58c1;} */
+
+.icon-sponser{
+    width:250px;
+	height:150px;
+	margin:0 auto;
+	border:1px solid #dedede;
+	text-align:center;
+	color:#fff;
+	transition:all 0.5s ease-in-out;
+	-webkit-transition:all 0.2s ease-in-out;
+	cursor:pointer;	
+    border-radius:5px;
+}
+.icon-sponser i{line-height:100px;}
+.icon-sponser:hover{transform:translate(0, -10px);-webkit-transform:translate(0, -10px);box-shadow:3px 10px 3px #ccc;}
+.icon-sponser:active{box-shadow:3px 10px 3px #1a58c1;}
+
+/* login */
+
+.login{
+    margin: auto;
+    padding: 0;
+    width: 400px;
+
+}
+
+.login a{
+    text-decoration: none;
+}
+
+.f-13{font-size:13px;}
+.f-14{font-size:14px;}
+.f-15{font-size:15px;}
+.f-16{font-size:16px;}
+
+
+.bg-login{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+

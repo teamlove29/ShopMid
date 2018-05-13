@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./fontawesome-free-5.0.13/web-fonts-with-css/css/fontawesome-all.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/circle-img.css">
+    <link rel="stylesheet" href="./css/back.css">
+    <link rel="stylesheet" href="./css/footer.css">
+
+</head>
+<body class="body-back">
+    <!-- navbar -->
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark text-center custom-nav">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="https://vignette.wikia.nocookie.net/logopedia/images/e/ee/Burger_King_Logo.svg.png/revision/20120422044236" width="30" height="30" alt=""> LOGO
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+        
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto p-3" id="myTab">
+                            <li class="nav-item p-2">
+                                <a class="nav-link " href="#!/home">หน้าแรก
+                                    <span class="sr-only">(current)</span>
+                                </a>
+                            </li>
+                            <li class="nav-item p-2">
+                                <a class="nav-link" href="#">คำถามพี่พบบ่อย</a>
+                            </li>
+             
+                            <!-- Login แล้ว -->
+                            <li class="nav-item dropdown">
+                                <button class="btn btn-sm btn-outline-secondary" type="button">
+                                    <a class="nav-link dropdown-toggle " id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    สวัสดีคุณ TRAROKINGs
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="#">
+                                            <i class="fas fa-user"></i> โปรไฟล์</a>
+                                        <a class="dropdown-item" href="#">
+                                            <i class="fas fa-clipboard-list"></i> รายการของฉัน</a>
+                                        <a class="dropdown-item" href="#">
+                                            <i class="far fa-calendar-alt"></i> ประวัติการทำธุระกรรม</a>
+                                        <a class="dropdown-item" href="#">
+                                            <i class="fas fa-undo-alt"></i> การคืนสินค้า</a>
+                                        <a class="dropdown-item" href="#">
+                                            <i class="fas fa-cogs"></i> ตั้งค่า</a>
+                                        <a class="dropdown-item" href="#">
+                                            <i class="far fa-question-circle"></i> รายงานปัญหา</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">
+                                            <i class="fas fa-sign-out-alt"></i> ออกจากระบบ</a>
+                            </li>
+                            </button>
+
+        
+                        </ul>
+                        </div>
+                    </div>
+            </nav>
+
+<sidebar>
+        <div class="container">
+                <div class="row profile">
+                    <div class="col-md-3">
+                        <div class="profile-sidebar">
+                            <!-- รูป -->
+                            <div class="profile-userpic mx-auto row">
+                                <img src="./image/team.jpg" class="img-fluid" alt="">
+                            </div>
+                            <!-- END รูป -->
+                            <!-- SIDEBAR ชื่อ -->
+                            <div class="profile-usertitle">
+                                <div class="profile-usertitle-name"> TRAROKINGs </div>
+                                <!-- <div class="profile-usertitle-code"> </div> -->
+                            </div>
+                            <!-- END ชื่อ -->
+                            <!-- ปุ่มกด -->
+                            <div class="profile-userbuttons">
+                                <button type="button" class="btn btn-outline-secondary btn-sm">อัพโหลดรูป</button>
+                                <button type="button" class="btn btn-outline-danger btn-sm">ลบรูป</button>
+                            </div>
+                            <!-- END ปุ่มกด -->
+                            <!-- เมนู -->
+                            <div class="profile-usermenu">
+                                <ul class="nav-menu">
+                                        <li><a href="profile.html" target="_top" style="text-decoration: none;"><i class="far fa-address-card"></i>โปรไฟล์</a></li>
+                                        <li><a href="listbuy.html" target="_top" style="text-decoration: none;"><i class="fas fa-clipboard-list"></i>รายการของฉัน </a></li>
+                                        <li><a href="withdraw.html" target="_top" style="text-decoration: none;"><i class="fas fa-wallet"></i>ถอนเงิน </a></li>
+                                        <li><a href="#" target="_top" style="text-decoration: none;"><i class="fas fa-boxes"></i>ติดตามพัสดุ</a></li>
+                                        <li class="active"><a href="return.html" target="_top" style="text-decoration: none;"><i class="fas fa-undo-alt"></i>คืนสินค้า </a></li>
+                                        <li><a href="setting.html" target="_top" style="text-decoration: none;"><i class="fas fa-cogs"></i>ตั้งค่า </a></li>
+                                        <li><a href="#" target="_top" style="text-decoration: none;"><i class="far fa-question-circle"></i>รายงานปัญหา</a></li>
+                                        <li><a href="#" target="_top" style="text-decoration: none; color: red;"><i class="fas fa-sign-out-alt"></i>ออกจากระบบ</a></li>
+                                </ul>
+                            </div>
+                            <!-- END เมนู -->
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="profile-content">
+                            <!-- menu bar -->
+                            <ul class="nav nav-tabs mb-3">
+                                    <li class="nav-item">
+                                            <a class="nav-link active text-primary" href="return.html">คืนสินค้า</a>
+                                        </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark" href="historyreturn.html">รายการคืนสินค้า</a>
+                                    </li>
+                                    </ul>
+                        <!-- end menu bar -->
+                        <!-- เริ่มคำขอ -->
+                        <!-- <div class="alert alert-primary col-12 text-center" role="alert">
+                             ต้องได้รับการยืนยันจากผู้ขายก่อน กรณีผู้ขายไม่กดยืนยันจะโอนเข้ากระเป๋าอัตโนมัติ 7 วันหลังผู้ขายได้รับของ
+                        </div>
+<div class="form-group row">
+        <label class="col-sm-2 my-auto">เลขที่บิล</label>
+        <input class="form-control col-sm-4" type="text" placeholder="เลขที่ #000102" readonly>
+</div>
+
+<div class="form-group row">
+    <label class="col-sm-2 my-auto">สาเหตุการคืน</label>
+    <select class="col-sm-4 form-control">
+        <option selected>เลือกสาเหตุการคืน ...</option>
+        <option>สินค้ามีตำหนิ</option>
+        <option>สินช้าชำรุด</option>
+        <option>สินค้าผิดจากที่คุยกันไว้</option>
+    </select>
+</div>
+
+<div class="form-group">
+        <label for="">ระบุปัญหาของสินค้า</label>
+        <textarea id="" class="form-control" rows="5" placeholder="เช่น.สินค้าชำรุด, สินค้าสีผิด, บางส่วนของสินค้าสูญหาย ฯล"></textarea>
+</div>
+
+<div class="form-group">
+        <label for="address">ที่อยู่จัดส่งคืน</label>
+        <textarea id="address" class="form-control" rows="2" disabled >มารุตเทพ ร่มโพธิ์ 309/78 ม.2 ต.พระบาท อ.เมือง จ.ลำปาง 52000 0965913095</textarea>
+</div>
+
+<div class="form-group row mx-auto">
+        <span class="col-12 my-auto pb-2 h6">เลือกบริษัทขนส่ง</span>
+        <select class="form-control col-3 " id="ems">
+                <option>EMS</option>
+                <option>KERRY</option>
+                <option>นิ่มซีเส็ง</option>
+                <option>อื่นๆ</option>
+              </select>
+            <input type="text" class="col ml-3 col-8 form-control" placeholder="หมายเลขติดตามพัสดุ">
+            <button class="btn btn-success btn-sm mt-3"><i class="fas fa-plus"></i> เพิ่มรายการ</button>
+            <button class="btn btn-primary btn-sm ml-2 mt-3 " onclick="myconfirm()">ยืนยันการส่งพัสดุ</button>
+        </div>
+ -->
+<!-- จบ เริ่มคำขอ -->
+<!-- ไม่มีสินค้าที่สามารถคืนได้ -->
+<div class="col-md-12">
+        <div class="profile-content text-center row">
+       <h5 class=" alert alert-primary my-auto mx-auto" role="alert">" ไม่มีสินค้าที่สามารถคืนได้ "</h5>
+        </div>
+    </div>
+<!-- จบ ไม่มีสินค้าที่สามารถคืนได้ -->
+
+      
+                                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <center>
+</sidebar>
+
+
+
+
+
+
+
+
+    <!-- import angularjs -->
+    <script src="./node_modules/angular/angular.min.js"></script>
+    <script src="./node_modules/angular-route/angular-route.min.js"></script>
+    <!-- jquery -->
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <!-- framwork -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./node_modules/popper.js/dist/umd/popper.min.js"></script>
+  
+
+    <!-- import js -->
+    <script src="./controller/navbar.js"></script>
+
+
+</body>
+</html>

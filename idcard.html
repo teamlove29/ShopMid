@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./fontawesome-free-5.0.13/web-fonts-with-css/css/fontawesome-all.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/circle-img.css">
+    <link rel="stylesheet" href="./css/list.css">
+    <link rel="stylesheet" href="./css/back.css">
+    <link rel="stylesheet" href="./css/footer.css">
+
+</head>
+<body class="body-back">
+    <!-- navbar -->
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark text-center custom-nav">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="https://vignette.wikia.nocookie.net/logopedia/images/e/ee/Burger_King_Logo.svg.png/revision/20120422044236" width="30" height="30" alt=""> LOGO
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+        
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto p-3" id="myTab">
+                            <li class="nav-item p-2">
+                                <a class="nav-link " href="#!/home">หน้าแรก
+                                    <span class="sr-only">(current)</span>
+                                </a>
+                            </li>
+                            <li class="nav-item p-2">
+                                <a class="nav-link" href="#">คำถามพี่พบบ่อย</a>
+                            </li>
+             
+                            <!-- Login แล้ว -->
+                            <li class="nav-item dropdown">
+                                <button class="btn btn-sm btn-outline-secondary" type="button">
+                                    <a class="nav-link dropdown-toggle " id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    สวัสดีคุณ TRAROKINGs
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="#">
+                                            <i class="fas fa-user"></i> โปรไฟล์</a>
+                                        <a class="dropdown-item" href="#">
+                                            <i class="fas fa-clipboard-list"></i> รายการของฉัน</a>
+                                        <a class="dropdown-item" href="#">
+                                            <i class="far fa-calendar-alt"></i> ประวัติการทำธุระกรรม</a>
+                                        <a class="dropdown-item" href="#">
+                                            <i class="fas fa-undo-alt"></i> การคืนสินค้า</a>
+                                        <a class="dropdown-item" href="#">
+                                            <i class="fas fa-cogs"></i> ตั้งค่า</a>
+                                        <a class="dropdown-item" href="#">
+                                            <i class="far fa-question-circle"></i> รายงานปัญหา</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">
+                                            <i class="fas fa-sign-out-alt"></i> ออกจากระบบ</a>
+                            </li>
+                            </button>
+
+        
+                        </ul>
+                        </div>
+                    </div>
+            </nav>
+
+<sidebar>
+        <div class="container">
+                <div class="row profile">
+                    <div class="col-md-3">
+                        <div class="profile-sidebar">
+                            <!-- รูป -->
+                            <div class="profile-userpic mx-auto row">
+                                <img src="./image/team.jpg" class="img-fluid" alt="">
+                            </div>
+                            <!-- END รูป -->
+                            <!-- SIDEBAR ชื่อ -->
+                            <div class="profile-usertitle">
+                                <div class="profile-usertitle-name"> TRAROKINGs </div>
+                                <!-- <div class="profile-usertitle-code"> </div> -->
+                            </div>
+                            <!-- END ชื่อ -->
+                            <!-- ปุ่มกด -->
+                            <div class="profile-userbuttons">
+                                <button type="button" class="btn btn-outline-secondary btn-sm">อัพโหลดรูป</button>
+                                <button type="button" class="btn btn-outline-danger btn-sm">ลบรูป</button>
+                            </div>
+                            <!-- END ปุ่มกด -->
+                            <!-- เมนู -->
+                            <div class="profile-usermenu">
+                                <ul class="nav-menu">
+                                        <li><a href="profile.html" target="_top" style="text-decoration: none;"><i class="far fa-address-card"></i>โปรไฟล์</a></li>
+                                        <li><a href="listbuy.html" target="_top" style="text-decoration: none;"><i class="fas fa-clipboard-list"></i>รายการของฉัน </a></li>
+                                        <li><a href="withdraw.html" target="_top" style="text-decoration: none;"><i class="fas fa-wallet"></i>ถอนเงิน </a></li>
+                                        <li><a href="#" target="_top" style="text-decoration: none;"><i class="fas fa-boxes"></i>ติดตามพัสดุ</a></li>
+                                        <li><a href="#" target="_top" style="text-decoration: none;"><i class="fas fa-undo-alt"></i>คืนสินค้า </a></li>
+                                        <li class="active"><a href="setting.html" target="_top" style="text-decoration: none;"><i class="fas fa-cogs"></i>ตั้งค่า </a></li>
+                                        <li><a href="#" target="_top" style="text-decoration: none;"><i class="far fa-question-circle"></i>รายงานปัญหา</a></li>
+                                        <li><a href="#" target="_top" style="text-decoration: none; color: red;"><i class="fas fa-sign-out-alt"></i>ออกจากระบบ</a></li>
+                                </ul>
+                            </div>
+                            <!-- END เมนู -->
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="profile-content">
+                            <!-- menu bar -->
+                                <ul class="nav nav-tabs mb-3">
+                                        <li class="nav-item">
+                                          <a class="nav-link text-dark " href="setting.html">ข้อมูลส่วนตัว   <i class="fas fa-check-circle text-secondary"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link active  text-primary" href="idcard.html">บัตรประชาชน   <i class="fas fa-check-circle text-secondary"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                                <a class="nav-link text-dark" href="finance.html">บัญชีและการเงิน   <i class="fas fa-check-circle text-secondary"></i></a>
+                                        </li>
+
+                                      </ul>
+                            <!-- end menu bar -->
+                            <!-- section คำขอ -->
+                            <section>
+                                    <div class="alert alert-primary col-12 text-center" role="alert">
+                                            <span>สำหรับผู้ที่ต้องการขาย : </span> <span>ต้องกรอกข้อมูลในส่วนที่มีเครื่องหมาย <i class="fas fa-check-circle text-success"></i> ให้ครบก่อนถึงจะทำการถอนเงินได้</span>
+                                          </div>
+                                    <!-- เลขบัตร -->
+                                    <div class="form-group row">
+                                        <label for="idcard" class="col-3 my-auto text-right h6">เลขบัตรประชาชน</label>
+                                        <input type="text" class="form-control col-8" id="idcard" placeholder="เลขบัตรประชาชน">
+                                    </div>
+                                    <!-- ชื่อจริงตามบัตรประชาชน -->
+                                    <div class="form-group row">
+                                            <label for="firstname" class="col-3 my-auto text-right h6">ชื่อจริงตามบัตร</label>
+                                            <input type="text" class="form-control col-8" id="firstname" placeholder="ชื่อจริงตามบัตร">
+                                    </div>
+                                    <!-- นามสกุลจริงตามบัตรประชาชน -->
+                                    <div class="form-group row">
+                                            <label for="lastname" class="col-3 my-auto text-right h6">นามสกุลจริงตามบัตร</label>
+                                            <input type="text" class="form-control col-8" id="lastname" placeholder="นามสกุลจริงตามบัตร">
+                                    </div>
+                                    <!-- ที่อยู่ตามบัตรประชาชน -->
+                                    <div class="form-group row">
+                                            <label for="idaddress" class="col-3 my-auto text-right h6"> ที่อยู่</label>
+                                            <input type="text" class="form-control col-8" id="idaddress" placeholder="ที่อยู่ตามบัตร">
+                                    </div>
+                                    <!-- รหัสไปรษณีย์ตามบัตรประชาชน -->
+                                    <div class="form-group row">
+                                            <label for="idzipcode" class="col-3 my-auto text-right h6"> รหัสไปรษณีย์</label>
+                                            <input type="text" class="form-control col-8" id="idzipcode" placeholder="รหัสไปรษณีย์ตามบัตร">
+                                    </div>
+                                    <!-- รูปบัตรประชาชน -->
+                                    <div class="form-group row">
+                                            <label for="imageidcard" class="col-3 my-auto text-right h6"> รูปบัตรประชาชน</label>
+                                            <span class="btn btn-default btn-file"><input type="file">
+                                            </span>
+                                    </div>
+                                    <div class="form-group row ">
+                                            <div class="mx-auto">
+                                                <button type="button" class="btn btn-primary btn-sm">บันทึกข้อมูล</button>
+                                                <button type="button" class="btn btn-secondary btn-sm">ยกเลิก</button>
+                                            </div>
+                                        </div>
+                                </div>
+                            </section>
+
+                            <!-- END section คำขอ -->
+                            <br>
+                            <!-- ระหว่างรอยืนยัน -->
+                            <div class="container">
+                                    <h4>บัตรของฉัน</h4>
+                                <div class="box-wait p-3 row">
+                                        <label class="h6 text-dark my-auto col-12 col-sm-9">เลขบัตรประชาชน: 152xxxxxxxxxx </label>
+                                        <button type="button" class="btn btn-sm btn-outline-success" disabled>สถานะ: ยืนยันแล้ว</button>
+                                        <button type="button" class="btn btn-sm btn-danger ml-2">ยกเลิก</button> 
+                                </div>
+                            </div>
+                            <!-- END ระหว่างรอยืนยัน -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+</sidebar>
+
+
+
+
+
+
+
+
+    <!-- import angularjs -->
+    <script src="./node_modules/angular/angular.min.js"></script>
+    <script src="./node_modules/angular-route/angular-route.min.js"></script>
+    <!-- jquery -->
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <!-- framwork -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./node_modules/popper.js/dist/umd/popper.min.js"></script>
+  
+
+    <!-- import js -->
+    <script src="./controller/navbar.js"></script>
+
+
+</body>
+</html>
