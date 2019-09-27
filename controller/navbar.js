@@ -10,10 +10,7 @@ $(window).scroll(function(){
     }
 })
 
-// Chacklog scroolTop
-//    $(window).scroll(function(){
-//         console.log($(this).scrollTop());
-//     })
+console.log('Hello World')
 
 // function copy
  function myFunction() {

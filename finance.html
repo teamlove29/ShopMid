@@ -8,6 +8,8 @@
     
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./fontawesome-free-5.0.13/web-fonts-with-css/css/fontawesome-all.css">
+    <link rel="stylesheet" href="./node_modules/iconsbank/icons/thbanklogos.min.css">
+    <link rel="stylesheet" href="./node_modules/iconsbank/icons/thbanklogos-colors.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/circle-img.css">
     <link rel="stylesheet" href="./css/list.css">
@@ -17,7 +19,7 @@
 </head>
 <body class="body-back">
     <!-- navbar -->
-        <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark text-center custom-nav">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-center">
                 <div class="container">
                     <a class="navbar-brand" href="#">
                         <img src="https://vignette.wikia.nocookie.net/logopedia/images/e/ee/Burger_King_Logo.svg.png/revision/20120422044236" width="30" height="30" alt=""> LOGO
@@ -135,7 +137,7 @@
                                         <select class="form-control col-8" id="bank">
                                             <option>เลือกธนาคาร</option>
                                             <option>SCB</option>
-                                            <option>TMB</option>
+                                            <option> TMB</option>
                                             <option>ออมสิน</option>
                                             <option>กสิกร</option>
                                             <option>กรุงเทพ</option>
@@ -174,23 +176,22 @@
 
                             <!-- END section คำขอ -->
                             <br>
-                            <!-- ระหว่างรอยืนยัน -->
+                            <!-- บัตรของฉัน -->
                             <div class="container">
                                 <h4>บัตรของฉัน</h4>
                             <div class="box-wait p-3 row">
-                                    <label class="h6 text-dark my-auto col-12 col-sm-9">SCB - 4753514574 มารุตเทพ ร่มโพธิ์ </label>
+                                    <label class="h6 text-dark my-auto col-12 col-sm-9"><i class="thbanks thbanks-scb text-white p-2" aria-hidden="true"></i> SCB - 4753514574 มารุตเทพ ร่มโพธิ์ </label>
                                     <button type="button" class="btn btn-sm btn-outline-success" disabled>สถานะ : รอยืนยัน</button>
                                     <button type="button" class="btn btn-sm btn-danger ml-2">ยกเลิก</button> 
                             </div>
                             <div class="box-wait p-3 row">
-                                <label class="h6 text-dark my-auto col-12 col-sm-9">SCB - 4753514574 มารุตเทพ ร่มโพธิ์ </label>
+                                <label class="h6 text-dark my-auto col-12 col-sm-9"><i class="thbanks thbanks-tmb  text-white p-2" aria-hidden="true"></i> TMB - 5232222371 มารุตเทพ ร่มโพธิ์ </label>
                                 <button type="button" class="btn btn-sm btn-outline-success" disabled>สถานะ : รอยืนยัน</button>
                                 <button type="button" class="btn btn-sm btn-danger ml-2">ยกเลิก</button> 
                         </div>
                         </div>
 
-                            </div>
-                            <!-- END ระหว่างรอยืนยัน -->
+                            <!-- END บัตรของฉัน -->
                         </div>
                     </div>
                 </div>
@@ -198,13 +199,6 @@
 
 
 </sidebar>
-
-
-
-
-
-
-
 
     <!-- import angularjs -->
     <script src="./node_modules/angular/angular.min.js"></script>

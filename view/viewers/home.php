@@ -34,9 +34,28 @@
         <div class="container p-5">
                         <div class="text-center">
                                 <h2 class="font-weight-bold">เราคือเว็ปซื้อ-ขายผ่านระบบตัวกลาง</h2>
-                                <h5>เว็ปของเราเหมาะกับใคร?</h5>
-                                <hr class="org">
+                                <h5>แล้วเราช่วยอะไรได้บ้าง?</h5>
+                                <hr class="org"> 
                         </div>
+                        <div class="row text-center">
+                        <div class="col-sm-4">
+                                <img alt="team-photo" src="./image/rock.png"width="80%">
+                                        <h4>xxxxxxxxxxxxxxxxx</h4>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam tempora, a illo facere error ducimus ea quidem amet quos officia sapiente tenetur labore explicabo eligendi quis inventore eaque aperiam perspiciatis.</p>
+                            </div>
+                            <div class="col-sm-4">
+                                <img alt="team-photo" src="./image/dd.png"width="80%">
+                                        <h4>xxxxxxxxxxxxxxxxx</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores adipisci ducimus expedita veniam magni voluptas eaque maxime nihil nostrum amet at excepturi laudantium nisi eum molestiae deserunt obcaecati, consequatur aliquam?</p>
+                            </div>
+                            <div class="col-sm-4">
+                                <img alt="team-photo" src="./image/sad.png"width="80%">
+                                        <h4>xxxxxxxxxxxxxxxxx</h4>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam soluta sed repellat laboriosam praesentium nobis ab pariatur tempora, provident minima aliquam necessitatibus fuga, neque voluptates architecto, reprehenderit quidem deserunt similique!</p>
+                            </div>
+                        </div>
+                            
+                        
         </div>   
                </section>
 
@@ -45,22 +64,34 @@
 
 
         <!-- section ขั้นตอน -->
-        <section class="text-center p-5 container-fulid">
+        <section class="text-center p-5 container">
                 <h3>ขั้นตอนการใช้งาน</h3>
                 <span class="h5">ไม่เข้าใจการใช้?<a href="index.php" target="_blank"> ดูวีดีโอ</a></span>
                 <hr class="org">
-        <div class="row mt-3 step">
          <!-- <img class="bg-img" src="./image/step.PNG" alt="">  -->
-         <div class="col"><div class="cricle-service mt-3"> <b><span>1 </span></b></div><br> <h5>สมัครสมาชิก </h5></div>
-        <div class="col"><div class="cricle-service mt-3"> <b><span>2 </span></b></div><br> <h5>ทำรายการขาย</h5> <p>ให้ผู้ซื้อโอนเงินเข้าระบบโดยที่จัสบายจะเป็นตัวกลางถือเงินเพื่อความปลอดภัย</p> </div>
-        <div class="col"><div class="cricle-service mt-3"> <b><span>3 </span></b></div><br> <h5>ผู้ขายส่งของ</h5> <p>สามารถหมายเลขพัสดุไปตรวจสอบสถานะได้</p> </div>
-        <div class="col"><div class="cricle-service mt-3"> <b><span>4 </span></b></div><br> <h5>ผู้ซื้อได้รับของ</h5> <p>หากสินค้าไม่ตรงที่ตกลงกันไว้กรุณาติดต่อผู้ขายและทำรายการคืนของภายใน 7 วัน</p> </div>
-        <div class="col"><div class="cricle-service mt-3"> <b><span>5 </span></b></div><br> <h5>รับเงิน</h5> <p>ระบบจะทำการโอนเงินเข้าบัญชีธนาคารของผู้ขายภายใน 7 วันเมื่อผู้ซื้อทำการยืนยัน</p> </div>
-
-         
-
-
+         <div class="form-group row mt-5">
+                <p class="col-xl-6 my-auto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo aperiam quas impedit, a nisi possimus alias quia autem beatae itaque ab adipisci, velit eligendi nesciunt illo aspernatur magnam amet minus.Laboriosam eligendi animi perferendis quae? Porro rem hic dolor reiciendis numquam facilis quisquam quam libero sit. Asperiores eum adipisci obcaecati nostrum eos sit ratione, itaque optio qui, non libero voluptatem.</p>
+                <div class="col"> <img src="./image/list.png" width="50%" alt=""> <br> <h5 class="mt-3">สร้างรายการ</h5> <p>สามารถหมายเลขพัสดุไปตรวจสอบสถานะได้</p> </div>
         </div>
+        <hr>
+         <div class="form-group row mt-5">
+                <div class="col"> <img src="./image/list.png" width="50%" alt=""> <br> <h5 class="mt-3">ชำระเงิน</h5> <p>ให้ผู้ซื้อโอนเงินเข้าระบบโดยที่จัสบายจะเป็นตัวกลางถือเงินเพื่อความปลอดภัย</p> </div>
+                <p class="col-xl-6 my-auto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo aperiam quas impedit, a nisi possimus alias quia autem beatae itaque ab adipisci, velit eligendi nesciunt illo aspernatur magnam amet minus.Laboriosam eligendi animi perferendis quae? Porro rem hic dolor reiciendis numquam facilis quisquam quam libero sit. Asperiores eum adipisci obcaecati nostrum eos sit ratione, itaque optio qui, non libero voluptatem.</p>
+         </div>
+         <hr>
+         <div class="form-group row mt-5">
+                <p class="col-xl-6 my-auto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo aperiam quas impedit, a nisi possimus alias quia autem beatae itaque ab adipisci, velit eligendi nesciunt illo aspernatur magnam amet minus.Laboriosam eligendi animi perferendis quae? Porro rem hic dolor reiciendis numquam facilis quisquam quam libero sit. Asperiores eum adipisci obcaecati nostrum eos sit ratione, itaque optio qui, non libero voluptatem.</p>
+                <div class="col"> <img src="./image/logis.png" width="50%" alt=""> <br> <h5 class="mt-3">ผู้ขายส่งสินค้า</h5> <p>สามารถหมายเลขพัสดุไปตรวจสอบสถานะได้</p> </div>
+        </div>
+        <hr>
+         <div class="form-group row mt-5">
+                        <div class="col"><img src="./image/gotit.png" width="40%" alt=""><br> <h5 class="mt-3">ผู้ซื้อได้รับของพร้อมตรวจสอบสินค้า</h5> <p>หากสินค้าไม่ตรงที่ตกลงกันไว้กรุณาติดต่อผู้ขายและทำรายการคืนของภายใน 7 วัน</p> </div>
+                        <p class="col-xl-6 my-auto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo aperiam quas impedit, a nisi possimus alias quia autem beatae itaque ab adipisci, velit eligendi nesciunt illo aspernatur magnam amet minus.Laboriosam eligendi animi perferendis quae? Porro rem hic dolor reiciendis numquam facilis quisquam quam libero sit. Asperiores eum adipisci obcaecati nostrum eos sit ratione, itaque optio qui, non libero voluptatem.</p>
+        </div>
+        <hr>
+         <div class="form-group row mt-5">
+                        <p class="col-xl-6 my-auto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo aperiam quas impedit, a nisi possimus alias quia autem beatae itaque ab adipisci, velit eligendi nesciunt illo aspernatur magnam amet minus.Laboriosam eligendi animi perferendis quae? Porro rem hic dolor reiciendis numquam facilis quisquam quam libero sit. Asperiores eum adipisci obcaecati nostrum eos sit ratione, itaque optio qui, non libero voluptatem.</p>
+                        <div class="col"><img src="./image/money.png" width="30%" alt=""><br> <h5 class="mt-3">รับเงิน</h5> <p>ระบบจะทำการโอนเงินเข้าบัญชีธนาคารของผู้ขายภายใน 7 วันเมื่อผู้ซื้อทำการยืนยัน</p> </div>
         </div>
         </section>
         
